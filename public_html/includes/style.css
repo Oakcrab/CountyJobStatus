@@ -1,0 +1,70 @@
+body{
+	margin-top:60px;
+	margin-bottom:20px;
+	background-color: #666666;
+}
+.navbar {
+	background-color:#AB1A1A;
+	background:-moz-linear-gradient(bottom,black,#AB1A1A);
+	background:-webkit-linear-gradient(bottom,black,#AB1A1A);
+	background:-ms-linear-gradient(bottom,black,#AB1A1A);
+	background:-o-linear-gradient(bottom,black,#AB1A1A);
+	background:linear-gradient(bottom,black,#AB1A1A);
+}
+.navbar-header {
+	color:white;
+}
+.navbar-brand {
+	color:white;
+}
+.icon-bar {
+	background-color:white;
+}
+.navbar ul li a {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	border: 1px solid black;
+	/* Border Radius */
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	/* Transitions */
+	-moz-transition: background-color 1s;
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+}
+.navbar ul li a:hover {
+	background-color:black;
+}
+.dropdown ul li a {
+	color:black;
+}
+#content{
+	background: white;
+	margin-bottom: 20px;
+	/* Border Radius */
+	-moz-border-radius: 25px;
+	-webkit-border-radius:25px;
+	border-radius: 25px;
+	/* Box Shadows */
+	-moz-box-shadow:rgba(50,50,50,.8) 8px 8px 8px;
+	-webkit-box-shadow:rgba(50,50,50,.8) 8px 8px 8px;
+	box-shadow:rgba(50,50,50,.8) 8px 8px 8px;
+}
+#footer {
+	position:fixed;
+    height:20px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+	background-color:#AB1A1A;
+	color:white;
+	text-align: center;
+	background:-moz-linear-gradient(bottom,#AB1A1A,black);
+	background:-webkit-linear-gradient(bottom,#AB1A1A,black);
+	background:-ms-linear-gradient(bottom,#AB1A1A,black);
+	background:-o-linear-gradient(bottom,#AB1A1A,black);
+	background:linear-gradient(bottom,#AB1A1A,black);
+}
